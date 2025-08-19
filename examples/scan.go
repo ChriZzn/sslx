@@ -7,7 +7,7 @@ import (
 	"github.com/ChriZzn/sslx/sslx"
 )
 
-var host = "86.106.182.135:587"
+var host = "45.33.32.156:587"
 
 func main() {
 
