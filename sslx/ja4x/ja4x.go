@@ -21,19 +21,6 @@ func JA4X(cert *x509.Certificate) string {
 	return strings.Join(hashComps, "_")
 }
 
-// JA4XWithRaw produces a JA4X hash for a parsed X509 certificate.
-// It also returns the hash in a raw form.
-func JA4XWithRaw(cert *x509.Certificate) (string, string) {
-	rawComps := components(cert)
-
-	var hashComps []string
-	for _, c := range rawComps {
-		hashComps = append(hashComps, hash12(c))
-	}
-
-	return strings.Join(hashComps, "_"), strings.Join(rawComps, "_")
-}
-
 // components produces raw JA4X hash components from a parsed X509 certificate
 func components(cert *x509.Certificate) []string {
 	var comps []string
