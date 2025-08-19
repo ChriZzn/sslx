@@ -1,5 +1,3 @@
-module sslx
+module github.com/ChriZzn/sslx
 
 go 1.24.0
-
-toolchain go1.24.5
