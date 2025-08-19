@@ -1,4 +1,4 @@
-package pkg
+package sslx
 
 // SSLInfo represents detailed SSL/TLS connection data including certificate, cipher, and protocol information.
 type SSLInfo struct {

@@ -1,6 +1,7 @@
 # SSLX
 
-Passive SSL fingerprinting from an existing TLS connection.
+Passive SSL fingerprinting is performed using an existing TLS connection.
+No external dependencies are required.
 
 ## Description
 

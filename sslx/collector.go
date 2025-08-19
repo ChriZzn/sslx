@@ -1,4 +1,4 @@
-package pkg
+package sslx
 
 import (
 	"crypto/ecdsa"
@@ -10,7 +10,7 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"sslx/pkg/ja4x"
+	"github.com/ChriZzn/sslx/sslx/ja4x"
 	"time"
 )
 
